@@ -1,0 +1,81 @@
+
+header{
+
+    width: 940px;
+    margin: 150px auto 10px auto;
+    text-align: center;
+
+
+
+}
+
+.list-group{
+
+    
+    margin: 0 auto;
+    width: 540px;
+   
+
+
+}
+
+
+#spam{
+    font-size: 30px;
+    cursor: pointer;
+
+
+}
+#spam2{
+    font-size: 30px;
+    cursor: pointer;
+
+}
+#spam3{
+    font-size: 30px;
+    cursor: pointer;    
+
+}
+
+.modal-container{
+
+    width: 100vw;
+    height:100vh ;
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.modal-span{
+    background-color: white;
+    border: 10px solid blue;
+    padding: 40px;
+    position: relative;
+
+
+
+}
+
+.fechar {
+   
+     position: absolute;
+     top: -30px;
+     right: -30px;
+     background-color: white;
+
+}
+
+.modal-container.mostrar{
+ 
+     display: flex;
+
+
+
+}
