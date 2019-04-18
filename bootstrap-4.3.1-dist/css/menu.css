@@ -55,7 +55,7 @@ header{
 
 .modal-span{
     background-color: white;
-    border: 10px solid blue;
+    border: 10px solid #128afa;
     padding: 40px;
     position: relative;
 
@@ -66,8 +66,8 @@ header{
 .fechar {
    
      position: absolute;
-     top: -30px;
-     right: -30px;
+     top: 0px;
+     right: 0px;
      background-color: white;
 
 }
