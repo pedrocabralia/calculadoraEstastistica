@@ -11,18 +11,38 @@ function tabela(){
     const sumindoCard = document.getElementById( 'card');
 
     sumindoCard.classList.add('sumir');
-    alert(numeroDeLinhas);
+//criando tabela
+    var table = document.createElement('table');
+     table.setAttribute('class','table table-bordered')
+     table.setAttribute('id','table')
+    var tbody = document.createElement('tbody');
+    var xi = document.createElement('th');
+    var fi = document.createElement('th');
+for(let i = 0; i < numeroDeLinhas; i++){
+    let tr = document.createElement('tr');
+    tr.setAttribute('scope','col')
+
+    // 1
+    let td = document.createElement('td');
+   
+    let span = document.createElement('span');
+    span.innerHTML = 'teste '+(i+1);
+    td.appendChild(span);
+    tr.appendChild(td);
+
+    // 2
+    td = document.createElement('td');
   
-    
-        // cria um novo elemento div 
-        // e dá à ele conteúdo
-        var divNova = document.createElement("div"); 
-        var conteudoNovo = document.createTextNode("Olá, cumprimentos!"); 
-        divNova.appendChild(conteudoNovo); //adiciona o nó de texto à nova div criada 
-      
-        // adiciona o novo elemento criado e seu conteúdo ao DOM 
-         
-        document.body.insertBefore(divNova, card); 
+    span = document.createElement('span');
+    span.innerHTML = 'texto '+(i+1);
+    td.appendChild(span);
+    tr.appendChild(td);
+
+    tbody.appendChild(tr);
+}
+table.appendChild(tbody);
+
+document.body.appendChild(table);
 
 
 }
