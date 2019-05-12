@@ -79,3 +79,18 @@ header{
 
 
 }
+
+#formulaMedia{
+
+height: 150px;
+width: 200px;
+}
+#explicacao{
+
+width: 250px;
+text-align: justify;
+font-size: 20px;
+
+
+
+}
