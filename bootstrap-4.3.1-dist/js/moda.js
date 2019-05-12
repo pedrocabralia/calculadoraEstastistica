@@ -20,6 +20,20 @@ let f3 =parseInt(document.querySelector("#f3").value,10);
            moda = x1;
 
      }
+   else if(f2 > f1 && f2 > f3){
+
+        moda = x2;
+
+  }
+
+
+  else if(f3 > f2 && f3 > f1){
+
+    moda = x3;
+
+}
+
+
 
   //fazendo moda aparecer na tela
 
