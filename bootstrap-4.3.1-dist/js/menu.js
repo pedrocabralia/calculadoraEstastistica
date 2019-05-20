@@ -60,3 +60,40 @@ const fecharModa = document.querySelector('.fecharModa');
     finalizaModal('moda');
     
 });
+
+
+
+
+
+//modal tabela Frequência
+
+function modalTabelaFrequencia(moda){
+
+
+    var modal = document.getElementById(moda);
+    tabelaFrequencia.classList.add('mostrar');
+
+}
+
+const spam3 = document.querySelector('#spam3');
+spam3.addEventListener('click',function(){
+    modalTabelaFrequencia('moda');
+});
+
+
+//Finalizando modal tabelaFrquencia
+
+function fecharModaltabelaFrequencia(moda){
+
+    
+    var  moda = document.getElementById(moda);
+    tabelaFrequencia.classList.remove('mostrar');
+}
+
+const fechartabelaFrequencia = document.querySelector('.fechartabelaFrequencia');
+fechartabelaFrequencia.addEventListener('click',function(){
+
+
+    fecharModaltabelaFrequencia('moda');
+    
+});
